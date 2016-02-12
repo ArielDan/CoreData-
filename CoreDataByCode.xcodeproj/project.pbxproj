@@ -15,6 +15,11 @@
 		E7E411B61C6E401800D9FE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E411B41C6E401800D9FE23 /* LaunchScreen.storyboard */; };
 		E7E411C11C6E401900D9FE23 /* CoreDataByCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E411C01C6E401900D9FE23 /* CoreDataByCodeTests.m */; };
 		E7E411CC1C6E401900D9FE23 /* CoreDataByCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E411CB1C6E401900D9FE23 /* CoreDataByCodeUITests.m */; };
+		E7E411DB1C6E403900D9FE23 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7E411D91C6E403900D9FE23 /* Model.xcdatamodeld */; };
+		E7E411E41C6E414B00D9FE23 /* Salary+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E411DD1C6E414B00D9FE23 /* Salary+CoreDataProperties.m */; };
+		E7E411E51C6E414B00D9FE23 /* Salary.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E411DF1C6E414B00D9FE23 /* Salary.m */; };
+		E7E411E61C6E414B00D9FE23 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E411E11C6E414B00D9FE23 /* Person+CoreDataProperties.m */; };
+		E7E411E71C6E414B00D9FE23 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E411E31C6E414B00D9FE23 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		E7E411C71C6E401900D9FE23 /* CoreDataByCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataByCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E411CB1C6E401900D9FE23 /* CoreDataByCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataByCodeUITests.m; sourceTree = "<group>"; };
 		E7E411CD1C6E401900D9FE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E411DA1C6E403900D9FE23 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E7E411DC1C6E414B00D9FE23 /* Salary+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Salary+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E7E411DD1C6E414B00D9FE23 /* Salary+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Salary+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E7E411DE1C6E414B00D9FE23 /* Salary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Salary.h; sourceTree = "<group>"; };
+		E7E411DF1C6E414B00D9FE23 /* Salary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Salary.m; sourceTree = "<group>"; };
+		E7E411E01C6E414B00D9FE23 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E7E411E11C6E414B00D9FE23 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E7E411E21C6E414B00D9FE23 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E7E411E31C6E414B00D9FE23 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,14 @@
 		E7E4119A1C6E401800D9FE23 = {
 			isa = PBXGroup;
 			children = (
+				E7E411DC1C6E414B00D9FE23 /* Salary+CoreDataProperties.h */,
+				E7E411DD1C6E414B00D9FE23 /* Salary+CoreDataProperties.m */,
+				E7E411DE1C6E414B00D9FE23 /* Salary.h */,
+				E7E411DF1C6E414B00D9FE23 /* Salary.m */,
+				E7E411E01C6E414B00D9FE23 /* Person+CoreDataProperties.h */,
+				E7E411E11C6E414B00D9FE23 /* Person+CoreDataProperties.m */,
+				E7E411E21C6E414B00D9FE23 /* Person.h */,
+				E7E411E31C6E414B00D9FE23 /* Person.m */,
 				E7E411A51C6E401800D9FE23 /* CoreDataByCode */,
 				E7E411BF1C6E401900D9FE23 /* CoreDataByCodeTests */,
 				E7E411CA1C6E401900D9FE23 /* CoreDataByCodeUITests */,
@@ -110,6 +132,7 @@
 				E7E411B41C6E401800D9FE23 /* LaunchScreen.storyboard */,
 				E7E411B71C6E401800D9FE23 /* Info.plist */,
 				E7E411A61C6E401800D9FE23 /* Supporting Files */,
+				E7E411D91C6E403900D9FE23 /* Model.xcdatamodeld */,
 			);
 			path = CoreDataByCode;
 			sourceTree = "<group>";
@@ -274,8 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E411AE1C6E401800D9FE23 /* ViewController.m in Sources */,
+				E7E411E51C6E414B00D9FE23 /* Salary.m in Sources */,
+				E7E411E71C6E414B00D9FE23 /* Person.m in Sources */,
 				E7E411AB1C6E401800D9FE23 /* AppDelegate.m in Sources */,
 				E7E411A81C6E401800D9FE23 /* main.m in Sources */,
+				E7E411E41C6E414B00D9FE23 /* Salary+CoreDataProperties.m in Sources */,
+				E7E411E61C6E414B00D9FE23 /* Person+CoreDataProperties.m in Sources */,
+				E7E411DB1C6E403900D9FE23 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +545,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7E411D91C6E403900D9FE23 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7E411DA1C6E403900D9FE23 /* Model.xcdatamodel */,
+			);
+			currentVersion = E7E411DA1C6E403900D9FE23 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E7E4119B1C6E401800D9FE23 /* Project object */;
 }
